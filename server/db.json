@@ -1,0 +1,95 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "name": "JhonDoe",
+      "email": "jhonDoe@admin.com",
+      "birthDate": "1994/05/24",
+      "password": "admin123",
+      "roleId": 1
+    },
+    {
+      "id": "70d4",
+      "name": "Christian Felipe Lopez Sarrazola",
+      "email": "johndoe@example.com",
+      "birthdate": "2024-06-06",
+      "password": "password123",
+      "roleId": 2
+    },
+    {
+      "id": "ec74",
+      "name": "yayan",
+      "email": "yayan@example.com",
+      "birthdate": "2024-06-01",
+      "password": "12345",
+      "roleId": 2
+    }
+  ],
+  "Flight": [
+    {
+      "id": "2",
+      "number": 605,
+      "origin": "LAX",
+      "destination": "JFK",
+      "departure": "2028-06-06",
+      "arrival": "2028-06-06",
+      "capacity": 100
+    },
+    {
+      "number": "tg",
+      "origin": "tg",
+      "destination": "tg",
+      "departure": "2024-06-11",
+      "arrival": "2024-06-25",
+      "capacity": "4",
+      "id": "3"
+    },
+    {
+      "id": "febc",
+      "number": "808",
+      "origin": "WER",
+      "destination": "QAW",
+      "departure": "2024-06-10",
+      "arrival": "2024-06-13",
+      "capacity": "200"
+    }
+  ],
+  "Booking": [
+    {
+      "id": "1",
+      "flightId": 705,
+      "userId": "70d4",
+      "bookingDate": "2024-07-06"
+    },
+    {
+      "id": "3",
+      "flightId": 505,
+      "userId": "70d4",
+      "bookingDate": "2024-02-06"
+    },
+    {
+      "id": "95f5",
+      "flightId": 605,
+      "userId": "70d4",
+      "bookingDate": "2024-07-06"
+    },
+    {
+      "id": "1255",
+      "flightId": 505,
+      "userId": "70d4",
+      "bookingDate": "2024-07-06"
+    },
+    {
+      "id": "1097",
+      "flightId": 505,
+      "userId": "70d4",
+      "bookingDate": "2024-07-06"
+    },
+    {
+      "id": "f4ce",
+      "flightId": 505,
+      "userId": "70d4",
+      "bookingDate": "2024-07-06"
+    }
+  ]
+}

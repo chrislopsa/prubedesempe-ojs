@@ -1,0 +1,12 @@
+.btn-reserve{
+    background-color: aquamarine;
+}
+.btn-edit{
+    background-color: rgb(255, 253, 127);
+}
+.btn-delete{
+    background-color: rgb(136, 127, 255);
+}
+.btn-create{
+    background-color: rgb(44, 41, 87);
+}
