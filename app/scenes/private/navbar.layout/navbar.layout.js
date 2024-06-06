@@ -9,7 +9,7 @@ export function navBarLayout(pageContent, logic){
     root.innerHTML=`
     <nav class="${styles.navbar}">
         <ul>
-            <li><button class="${styles.reservar_Btn}">Reservar</button></li>
+            <h1 class="${styles.logo}">Airline</h1>
             <li><button id="logout" class="${styles.logout_Btn}">Logout</button></li>
         </ul>
     </nav>

@@ -1,0 +1,46 @@
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.flight-info{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flight-table > thead{
+    background-color: rgb(59, 143, 212);
+    height: 30px;
+    font-size: x-large;
+}
+.flight-table > tbody > tr > td{
+    text-align: center;
+    font-size: medium;
+    border: 1px solid gray;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.form > label{
+    font-size: large;
+}
+.form > input{
+    height: 25px;
+    width: 250px;
+}
+.btn-edit{  
+    border-radius: 40px;
+    background-color: aliceblue;
+
+}
+.btn-edit:hover{  
+    cursor: pointer;
+    background-color: rgb(62, 119, 168);
+
+}

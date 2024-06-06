@@ -21,7 +21,6 @@ export async function LoginPage() {
         <div class=${styles.register_link}>
             <p>Don't have an account yet?    <a href="./register">Sign Up</a></p>
         </div>
-        <a class=${styles.btn_go_home} href="/home">Go To Home</a>
     </form>
 </div>
     `;

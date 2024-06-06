@@ -31,7 +31,6 @@ export async function RegisterPage() {
             <div class=${styles.login_link}>
                 <p>Already have an account?   <a href="./login">Login</a></p>
             </div>
-            <a class=${styles.btn_go_home} href="/home">Go To Home</a>
         </form>
     </div>
     `;

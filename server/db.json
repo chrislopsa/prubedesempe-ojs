@@ -31,63 +31,36 @@
       "number": 605,
       "origin": "LAX",
       "destination": "JFK",
-      "departure": "2028-06-06",
-      "arrival": "2028-06-06",
-      "capacity": 100
+      "departure": "2028-06-17",
+      "arrival": "2028-06-02",
+      "capacity": "100"
     },
     {
-      "number": "tg",
-      "origin": "tg",
-      "destination": "tg",
+      "id": "2082",
+      "number": 101,
+      "origin": "abc",
+      "destination": "sdr",
       "departure": "2024-06-11",
-      "arrival": "2024-06-25",
-      "capacity": "4",
-      "id": "3"
-    },
-    {
-      "id": "febc",
-      "number": "808",
-      "origin": "WER",
-      "destination": "QAW",
-      "departure": "2024-06-10",
-      "arrival": "2024-06-13",
-      "capacity": "200"
+      "arrival": "2024-06-22",
+      "capacity": "7"
     }
   ],
   "Booking": [
     {
-      "id": "1",
-      "flightId": 705,
+      "id": "624e",
+      "flightId": 101,
       "userId": "70d4",
       "bookingDate": "2024-07-06"
     },
     {
-      "id": "3",
-      "flightId": 505,
-      "userId": "70d4",
-      "bookingDate": "2024-02-06"
-    },
-    {
-      "id": "95f5",
+      "id": "af32",
       "flightId": 605,
       "userId": "70d4",
       "bookingDate": "2024-07-06"
     },
     {
-      "id": "1255",
-      "flightId": 505,
-      "userId": "70d4",
-      "bookingDate": "2024-07-06"
-    },
-    {
-      "id": "1097",
-      "flightId": 505,
-      "userId": "70d4",
-      "bookingDate": "2024-07-06"
-    },
-    {
-      "id": "f4ce",
-      "flightId": 505,
+      "id": "47db",
+      "flightId": 101,
       "userId": "70d4",
       "bookingDate": "2024-07-06"
     }

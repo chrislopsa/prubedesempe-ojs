@@ -126,7 +126,11 @@ export function homePrivateScene(params){
            document.querySelectorAll(`.${styles['btn-reserve']}`).forEach(btn => {
               btn.addEventListener('click', (event) => {
                  event.preventDefault();
-                 navigateTo(`/dashboard?id=${event.target.id}`);
+                 let confirmBooking = confirm("¿Deseas condirmar la reservación?")
+                 if(confirmBooking){
+                    navigateTo(`/dashboard?id=${event.target.id}`);
+                 }
+                 
               } );
              });
          }
@@ -169,15 +173,16 @@ export function homePrivateScene(params){
      
                      const userBookings = Bookings.filter(booking => booking.userId === userId);
                      let Userbookings=[];
-     
+                        console.log("userBookings",userBookings);
+
                      userBookings.forEach(obj =>{
      
                          let flightId =  obj.flightId;
                          let bookingDate = obj.bookingDate;
-                         let origin = Flights.find(flight => flight.number === obj.flightId).origin;
-                         let destination = Flights.find(flight => flight.number === obj.flightId).destination;
-                         let arrival = Flights.find(flight => flight.number === obj.flightId).arrival;
-                         let departure = Flights.find(flight => flight.number === obj.flightId).departure;
+                         let origin = (Flights.find(flight => flight.number === obj.flightId)).origin;
+                         let destination = (Flights.find(flight => flight.number === obj.flightId)).destination;
+                         let arrival = (Flights.find(flight => flight.number === obj.flightId)).arrival;
+                         let departure = (Flights.find(flight => flight.number === obj.flightId)).departure;
                          
                          Userbookings.push({
                              origin,
