@@ -6,7 +6,7 @@ export function editFlightScene(params){
 
     const roleId = localStorage.getItem('roleId');
     
-    if(roleId === '1'){
+    if(roleId){
 
       const flightId = Number(params.get('id'));
 
@@ -18,10 +18,11 @@ export function editFlightScene(params){
       let logic = async () => {
          const resp = await fetch(`http://localhost:3000/Flight`);
          const dataFlights = await resp.json();
+
          let flightToEdit = dataFlights.find(element => element.number === flightId);
-         console.log(flightToEdit);
+
          const { id, number, origin, destination, departure, arrival, capacity } = flightToEdit;
-                 console.log(id);
+   
          const flightInfo = document.getElementById('flight-info');
          flightInfo.innerHTML=`
          <table class="${styles['flight-table']}">
@@ -109,7 +110,6 @@ export function editFlightScene(params){
          navigateTo('./dashboard');
       }else{
          navigateTo('./login');
-      }
-      
+      }    
    }
 }

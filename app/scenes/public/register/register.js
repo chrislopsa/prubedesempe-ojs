@@ -67,7 +67,7 @@ $form.addEventListener('submit', async (event)=>{
                 email: $userEmail,
                 birthdate: $userBirthDate,
                 password: $password,
-                roleId: 2
+                roleId: 0
             })
         }) 
         console.log("uservreated: ",userCreated);

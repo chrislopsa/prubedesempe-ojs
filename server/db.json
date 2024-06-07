@@ -14,7 +14,7 @@
       "email": "johndoe@example.com",
       "birthdate": "2024-06-06",
       "password": "password123",
-      "roleId": 2
+      "roleId": 0
     },
     {
       "id": "ec74",
@@ -22,47 +22,9 @@
       "email": "yayan@example.com",
       "birthdate": "2024-06-01",
       "password": "12345",
-      "roleId": 2
+      "roleId": 0
     }
   ],
-  "Flight": [
-    {
-      "id": "2",
-      "number": 605,
-      "origin": "LAX",
-      "destination": "JFK",
-      "departure": "2028-06-17",
-      "arrival": "2028-06-02",
-      "capacity": "100"
-    },
-    {
-      "id": "2082",
-      "number": 101,
-      "origin": "abc",
-      "destination": "sdr",
-      "departure": "2024-06-11",
-      "arrival": "2024-06-22",
-      "capacity": "7"
-    }
-  ],
-  "Booking": [
-    {
-      "id": "624e",
-      "flightId": 101,
-      "userId": "70d4",
-      "bookingDate": "2024-07-06"
-    },
-    {
-      "id": "af32",
-      "flightId": 605,
-      "userId": "70d4",
-      "bookingDate": "2024-07-06"
-    },
-    {
-      "id": "47db",
-      "flightId": 101,
-      "userId": "70d4",
-      "bookingDate": "2024-07-06"
-    }
-  ]
+  "Flight": [],
+  "Booking": []
 }
